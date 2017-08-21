@@ -1,0 +1,6 @@
+{
+  "presets": [
+    /* targets node which transpile to commonjs (modules: true) */
+    ["env", { "targets": { "node": "current" } }],
+  ],
+}

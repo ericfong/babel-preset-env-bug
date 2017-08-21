@@ -1,0 +1,17 @@
+{
+  "name": "babel-preset-env-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && grep 'Comp' prod/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "webpack": "3.5.5"
+  }
+}
